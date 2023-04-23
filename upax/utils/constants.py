@@ -1,0 +1,15 @@
+regex_email = "^[\w\.\+\-]+\@[\w]+\.[a-z]{2,3}|(\.[a-z]{2-3}?)$"
+regex_curp = "^([A-Z][AEIOUX][A-Z]{2}\\d{2}(?:0[1-9]|1[0-2])(?:0[1-9]|[12]\\d|3[01])[HM](?:AS|B[CS]|C[CLMSH]|D[FG]|G[TR]|HG|JC|M[CNS]|N[ETL]|OC|PL|Q[TR]|S[PLR]|T[CSL]|VZ|YN|ZS)[B-DF-HJ-NP-TV-Z]{3}[A-Z\\d])(\\d)$"
+TYPE_FUNCTION = 'FN'
+TYPE_RETURN_CURSOR = 'cursor'
+TYPE_RETURN_NUMBER = 'numeric'
+TYPE_RETURN_STRING = 'string'
+SUCCESS_CODE = 'UPX200'
+INVALID_USER_CODE = 'UPX214'
+SUCCESS_MESSAGE = 'Ok'
+INVALID_USER_MESSAGE = 'Invalid user'
+ERROR_CODE = 'UPX500'
+ERROR_UPDATING_MESSAGE = 'Error updating info'
+SUBITEM_VALIDATION = [1,2,3]
+AWS_REGION = 'us-east-1'
+SECRETS_MANAGER = 'secretsmanager'
